@@ -1,0 +1,66 @@
+.bg-light-blue{
+    background-color: teal;
+}
+#navbar-contents{
+    margin-left: auto;
+    margin-right: 200px;
+}
+#navbar-contents li{
+    padding-left: 25px;
+}
+#navbar-contents li a{
+    color: white;
+}
+.carousel-caption{
+    bottom: 200px;
+    text-align: left;
+    animation:heartBeat; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s;
+}
+.bg-light-warning{
+    background-color: white;
+}
+.text-lightblue{
+    color: teal;
+}
+#tourismplaces img{
+    width:100%;
+}
+#social-media i{
+    padding: 15px;
+}
+#photo-gallery img{
+    width: 100%;
+}
+.col-md-3{
+    margin-top: 10px;
+}
+#contact-details .form-group{
+    margin: 10px;
+}
+.bg-warning{
+    background-color: gray;
+}
+#3cards .card{
+    margin: 10px;
+}
+#tourismplaces .card{
+    margin: 10px;
+}
+#main-navbar a:hover{
+    background-color: white;
+    color: teal;
+    padding: 10px;
+}
+@media (max-width: 576px){
+    .carousel-caption {
+        bottom: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+.carousel-item img{
+    width: auto;
+    height: 700px;
+}
